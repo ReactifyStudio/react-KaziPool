@@ -1,67 +1,67 @@
 /* eslint-disable */
 import React, {useState, useContext} from "react";
-import Header from "components/Header";
+// import Header from "./components/Header";
 // import {Helmet} from "react-helmet";
 // import AxiosConfig from "../AxiosConfig";
 // import {AuthContext} from "contexts/AuthContext";
 import {NavLink, Redirect} from "react-router-dom";
-import swal from 'sweetalert';
-import {useToasts} from "react-toast-notifications";
+// import swal from 'sweetalert';
+// import {useToasts} from "react-toast-notifications";
 
 
 const RegisterPage = () => {
 
-    // const [email, setEmail] = useState('');
-    // const [password, setPassword] = useState('');
-    // const [password2, setPassword2] = useState('');
-    // const [gender, setGender] = useState('');
-    // const [role, setRole] = useState('');
-    // const [redirect, setRedirect] = useState(false);
-    // const [submitted, setSubmitted] = useState(false);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [password2, setPassword2] = useState('');
+    const [gender, setGender] = useState('');
+    const [role, setRole] = useState('');
+    const [redirect, setRedirect] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
     // const authContext = useContext(AuthContext);
     // const {addToast} = useToasts();
 
-    // const handleSubmit = (evt) => {
-    //     evt.preventDefault();
-    //     setSubmitted(true);
+    const handleSubmit = (evt) => {
+        evt.preventDefault();
+        setSubmitted(true);
 
-    //     if (!email && !password) {
-    //         alert('All fields are required');
-    //         setSubmitted(false);
-    //         return true;
-    //     }
+        if (!email && !password) {
+            alert('All fields are required');
+            setSubmitted(false);
+            return true;
+        }
 
-    //     const postData = {
-    //         "email": email,
-    //         "password": password,
-    //         "password2": password2,
-    //         "gender": gender,
-    //         "role": role
-    //     }
+        const postData = {
+            "email": email,
+            "password": password,
+            "password2": password2,
+            "gender": gender,
+            "role": role
+        }
 
-    //     AxiosConfig.post('register/', postData)
-    //         .then(res => {
-    //             // swal("Good job!", "Successfully registered!", "success");
-    //             setSubmitted(false);
-    //             addToast('Registered successfully', {appearance: 'success'});
-    //             if (res.status == 201) setRedirect(true);
-    //         })
-    //         .catch(err => {
-    //             setSubmitted(false);
-    //             addToast('Register failed', {appearance: 'error'});
-    //         });
-    // }
+        // AxiosConfig.post('register/', postData)
+            .then(res => {
+                // swal("Good job!", "Successfully registered!", "success");
+                setSubmitted(false);
+                addToast('Registered successfully', {appearance: 'success'});
+                if (res.status == 201) setRedirect(true);
+            })
+            .catch(err => {
+                setSubmitted(false);
+                addToast('Register failed', {appearance: 'error'});
+            });
+    }
 
-    // if (redirect) {
-    //     return <Redirect to="/login"/>;
-    // }
+    if (redirect) {
+        return <Redirect to="/login"/>;
+    }
 
     return (
         <React.Fragment>
-            <Header/>
-            <Helmet>
+            {/* <Header/> */}
+            {/* <Helmet>
                 <title>Register</title>
-            </Helmet>
+            </Helmet> */}
 
             <div className="page-header">
                 <div className="container">
@@ -143,7 +143,8 @@ const RegisterPage = () => {
                                     </button>
                                 </form>
                                 <ul className="form-links">
-                                    <li className="text-center"><NavLink to='/login'>Already have an account?</NavLink></li>
+                                    Already have acc?
+                                    {/* <li className="text-center"><NavLink to='/login'>Already have an account?</NavLink></li> */}
                                 </ul>
                             </div>
                         </div>

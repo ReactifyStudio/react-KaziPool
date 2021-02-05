@@ -1,6 +1,6 @@
 import React, {useState, useContext, useRef, useEffect} from "react";
-import Header from "components/Header";
-import {Helmet} from "react-helmet";
+// import Header from "./components/Header";
+// import {Helmet} from "react-helmet";
 // import AxiosConfig from "../AxiosConfig";
 // import {AuthContext} from "contexts/AuthContext";
 import {Redirect, NavLink} from "react-router-dom";
@@ -99,10 +99,10 @@ const LoginPage = ({history, location}) => {
     // }
     return (
         <React.Fragment>
-            <Header/>
-            <Helmet>
+            {/* <Header/> */}
+            {/* <Helmet>
                 <title>Login</title>
-            </Helmet>
+            </Helmet> */}
 
             <div className="page-header">
                 <div className="container">
@@ -121,7 +121,7 @@ const LoginPage = ({history, location}) => {
                     <div className="row justify-content-center">
                         <div className="col-lg-5 col-md-6 col-xs-12">
                             <div className="page-login-form box">
-                                <form className="login-form" onSubmit={handleSubmit}>
+                                <form className="login-form" /*onSubmit={handleSubmit}*/>
                                     <div className="form-group">
                                         <div className="input-icon">
                                             <i className="lni-user"/>
@@ -130,8 +130,8 @@ const LoginPage = ({history, location}) => {
                                                    className="form-control"
                                                    name="email"
                                                    placeholder="Email"
-                                                   value={email}
-                                                   onChange={e => setEmail(e.target.value)}
+                                                   /*value={email}*/
+                                                   /*onChange={e => setEmail(e.target.value)}*/
                                             />
                                         </div>
                                     </div>
@@ -141,8 +141,8 @@ const LoginPage = ({history, location}) => {
                                             <input type="password"
                                                    className="form-control"
                                                    placeholder="Password"
-                                                   value={password}
-                                                   onChange={e => setPassword(e.target.value)}
+                                                   /*value={password}*/
+                                                   /*onChange={e => setPassword(e.target.value)}*/
                                             />
                                         </div>
                                     </div>
@@ -150,26 +150,27 @@ const LoginPage = ({history, location}) => {
                                         <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                                         <label className="form-check-label" htmlFor="exampleCheck1">Keep Me Signed In</label>
                                     </div>
-                                    <button type="submit" hidden={submitted} className="btn btn-primary log-btn">
+                                    <button type="submit" /*hidden={submitted}*/ className="btn btn-primary log-btn">
                                         Login
                                     </button>
-                                    <button type="submit" hidden={!submitted} className="btn btn-primary log-btn">
+                                    <button type="submit" /*hidden={!submitted}*/ className="btn btn-primary log-btn">
                                         <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"/>
                                         Loading...
                                     </button>
                                 </form>
                                 <ul className="form-links">
-                                    <li className="text-center"><NavLink to='/register'>Don't have an account?</NavLink></li>
+                                    Dont have an acc?
+                                    {/* <li className="text-center"><NavLink to='/register'>Don't have an account?</NavLink></li> */}
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center my-2">
                         <div className="col-md-4">
-                            <FacebookSocialAuth/>
+                            {/* <FacebookSocialAuth/> */} FacebookSocialAuth
                         </div>
                         <div className="col-md-4">
-                            <GoogleSocialAuth/>
+                            {/* <GoogleSocialAuth/> */} GoogleSocialAuth
                         </div>
                     </div>
                 </div>

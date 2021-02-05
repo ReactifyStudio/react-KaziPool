@@ -1,8 +1,6 @@
 import React from 'react';
-// import {useTranslation} from "react-i18next";
 
 function Jumbotron(props) {
-    // const {} = useTranslation();
 
     return (
         <div className="container">
@@ -10,7 +8,7 @@ function Jumbotron(props) {
                 <div className="col-lg-7 col-md-12 col-xs-12">
                     <div className="contents">
                         <h2 className="head-title">{('welcome.title1')} <br/> {('welcome.title2')}</h2>
-                        <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non.</p>
+
                         <div className="job-search-form">
                             <form>
                                 <div className="row">
@@ -25,12 +23,12 @@ function Jumbotron(props) {
                                                 <label className="styled-select">
                                                     <select>
                                                         <option value="none">Locations</option>
-                                                        <option value="none">New York</option>
-                                                        <option value="none">California</option>
-                                                        <option value="none">Washington</option>
-                                                        <option value="none">Birmingham</option>
-                                                        <option value="none">Chicago</option>
-                                                        <option value="none">Phoenix</option>
+                                                        <option value="none">Mombasa</option>
+                                                        <option value="none">Murang'a</option>
+                                                        <option value="none">Nakuru</option>
+                                                        <option value="none">Kiambu</option>
+                                                        <option value="none">Nairobi</option>
+                                                        <option value="none">Machakos</option>
                                                     </select>
                                                 </label>
                                             </div>

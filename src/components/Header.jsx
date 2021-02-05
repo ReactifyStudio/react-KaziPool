@@ -3,11 +3,8 @@ import React, {useContext, useState} from "react";
 import {NavLink, Redirect} from 'react-router-dom';
 import Jumbotron from "./Jumbotron";
 // import {AuthContext} from "contexts/AuthContext";
-// import {useTranslation} from "react-i18next";
 
 const Header = () => {
-
-    // const {t, i18n} = useTranslation();
 
     // const [redirect, setRedirect] = useState(false);
     // const authContext = useContext(AuthContext);
@@ -101,7 +98,7 @@ const Header = () => {
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
                                                aria-expanded="false">
-                                                Employers
+                                                Client
                                             </a>
                                             <ul className="dropdown-menu">
                                                 <li>
@@ -126,21 +123,6 @@ const Header = () => {
                                 }
                                 <li className="button-group">
                                     <NavLink className="button btn btn-common" activeClassName='' to='/post-job/'>Post a Job</NavLink>
-                                </li>
-
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-                                       aria-expanded="false">
-                                        Language
-                                    </a>
-                                    <ul className="dropdown-menu">
-                                        <li style={{cursor: 'pointer'}}>
-                                            <a className="dropdown-item" onClick={() => i18n.changeLanguage("en")}>English</a>
-                                        </li>
-                                        <li style={{cursor: 'pointer'}}>
-                                            <a className="dropdown-item" onClick={() => i18n.changeLanguage("bn")}>Bengali</a>
-                                        </li>
-                                    </ul>
                                 </li>
                             </ul>
                         </div>
