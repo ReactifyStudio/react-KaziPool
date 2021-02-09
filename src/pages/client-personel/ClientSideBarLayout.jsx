@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react'
 
-function SideBarLayout(props) {
+function ClientSideBarLayout(props) {
     return (
     <Fragment>
         <div className="page-header">
@@ -27,7 +27,7 @@ function SideBarLayout(props) {
                                         DashboardLink
                                     </li>
                                     <li>
-                                        ApplicantsLink
+                                        ApplicantsLink || Your Current Jobs
                                     </li>
                                     <li><a href="#!">Change Password</a></li>
                                     <li style={{cursor: 'pointer'}}>
@@ -42,9 +42,7 @@ function SideBarLayout(props) {
             </div>
 
     </Fragment>
-            
-        
     )
 }
 
-export default SideBarLayout
+export default ClientSideBarLayout
