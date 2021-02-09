@@ -7,14 +7,15 @@ function Jumbotron(props) {
             <div className="row space-100">
                 <div className="col-lg-7 col-md-12 col-xs-12">
                     <div className="contents">
-                        <h2 className="head-title">{('welcome.title1')} <br/> {('welcome.title2')}</h2>
-
+                        
                         <div className="job-search-form">
+                        
                             <form>
+                            <h3>SEARCH BY LOCATION</h3>
                                 <div className="row">
                                     <div className="col-lg-5 col-md-5 col-xs-12">
                                         <div className="form-group">
-                                            <input className="form-control" type="text" placeholder="Job Title or Company Name"/>
+                                            <input className="form-control" type="text" placeholder="Job Type"/>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 col-md-5 col-xs-12">
@@ -36,16 +37,11 @@ function Jumbotron(props) {
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-2 col-xs-12">
-                                        <button type="submit" className="button"><i className="lni-search"></i></button>
+                                        <button type="submit" className="button btn btn-primary">Search</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
-                    </div>
-                </div>
-                <div className="col-lg-5 col-md-12 col-xs-12">
-                    <div className="intro-img">
-                        <img src="assets/img/intro.png" alt=""/>
                     </div>
                 </div>
             </div>

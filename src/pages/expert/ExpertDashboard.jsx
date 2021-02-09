@@ -1,13 +1,14 @@
 import React from 'react'
-import Rating from './Rating'
+// import Rating from './Rating'
 import ExpertSideBarLayout from './ExpertSideBarLayout'
-function ExpertDashboar() {
+
+function ExpertDashboard() {
     return (
         <div>
             <ExpertSideBarLayout/>
-            <Rating/>
+            {/* <Rating/> */}
         </div>
     )
 }
 
-export default ExpertDashboar
+export default ExpertDashboard

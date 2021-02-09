@@ -41,3 +41,33 @@ label {
   font-size: 14px;
   margin: 20px 0px;
 }
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6976d9;
+  padding: 1.5rem 0;
+}
+nav div{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar .right-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
