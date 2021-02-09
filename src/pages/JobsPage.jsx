@@ -3,7 +3,7 @@ import React,{Fragment} from 'react';
 function JobsPage() {
   return (
     <Fragment>
-        Home Page
+        Display Each Job as a Component
     </Fragment>
   );
 }

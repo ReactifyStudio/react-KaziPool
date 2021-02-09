@@ -3,7 +3,7 @@ import React,{Fragment} from 'react';
 function JobDetailsPage() {
   return (
     <Fragment>
-        Home Page
+        Display all Jobs from JobComponent by loop(map)
     </Fragment>
   );
 }
