@@ -22,12 +22,11 @@ function Jumbotron(props) {
                                         <div className="form-group">
                                             <div className="search-category-container">
                                                 <label className="styled-select">
-                                                    <select>
-                                                        <option value="none">Locations</option>
+                                                    <select>  
+                                                        <option value="none">Kiambu</option>                                          
                                                         <option value="none">Mombasa</option>
                                                         <option value="none">Murang'a</option>
-                                                        <option value="none">Nakuru</option>
-                                                        <option value="none">Kiambu</option>
+                                                        <option value="none">Nakuru</option>                                                        
                                                         <option value="none">Nairobi</option>
                                                         <option value="none">Machakos</option>
                                                     </select>
