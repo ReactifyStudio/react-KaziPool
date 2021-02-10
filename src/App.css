@@ -8,6 +8,10 @@ form {
   max-width: 500px;
   padding: 30px 50px;
 }
+button{
+  border: none;
+  border-radius: 5px;
+}
 
 
 input,select {
