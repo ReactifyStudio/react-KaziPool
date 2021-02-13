@@ -21,14 +21,16 @@ function App() {
       <Router>
       <Navbar/>
       {/* <Header/>  */}
-      {/* <Jumbotron/> */}
+      <Jumbotron/>
       {/* <ButtonIcon/> */}
       <RegisterPage/>
       <LoginPage/>
       {/* <HomePage/> */}
       {/* <ClientDashboardPage/> */}
       {/* <ExpertDashboard/> */}
-      {/* <Footer/> */}
+      <center>
+      <Footer/>
+      </center>
       <Switch>
         <Route to='/'/>
       </Switch>
