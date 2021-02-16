@@ -8,14 +8,14 @@ function Navbar() {
 
     return (
         <Fragment>
-            <header className="header" id="header">
+            {/* <header className="header" id="header">
                 <div className="header__toggle">
                 <i class='bx bx-menu' className="header-toggle"></i>
                 </div>
                 <div className="header__img">
                     <img src="../assets/avatar.jpg" alt=""/>
                 </div>
-            </header>
+            </header> */}
             <div className="l-navbar">
                 <nav className="nav">
                     <div>

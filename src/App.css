@@ -3,8 +3,9 @@
 body{
   font-family: Nunito, sans-serif;
   position: relative;
-  margin: var(--header-height) 0 0 0;
-  padding: 0 1rem;
+  /* margin: var(--header-height) 0 0 0; */
+  margin: 0;
+  padding: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: .5s;
@@ -28,7 +29,13 @@ body{
   box-sizing: border-box;
 }
 
-
+button{
+  padding: 0.8rem 2.4rem;
+  margin: 5px;
+}
+a{
+  text-decoration: none;
+}
 
 .header{
   width: 100%;
@@ -119,8 +126,19 @@ body{
   font-size: 1.25rem;
 }
 
-
-
+/**The top nav*/
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6976d9;
+  color: #F7F6FB;
+}
+.header-nav div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 
@@ -198,4 +216,10 @@ li{
 
 footer{
 font-size: 1.5rem;
+padding: 0.8rem;
+position: sticky;
+bottom: 0;
+text-align: center;
+background-color: rgb(20, 20, 20);
+color:#F7F6FB;
 }

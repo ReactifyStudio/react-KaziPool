@@ -1,10 +1,16 @@
-import React,{Fragment} from 'react'
+import React,{Fragment} from 'react';
+import {Link} from 'react-router-dom';
 
-function Header() {
+
+function Header(props) {
+
+
     return (
         <Fragment>
-        <nav>
+        <nav className="header-nav">
+            <Link to='/'>
             <h1>KaziPool</h1>
+            </Link>
             <div>
             <li>
             Hire An Expert
@@ -27,8 +33,13 @@ function Header() {
             <li>
                 Contact Us
             </li>
+            <Link to='/login'>
             <button>Login</button>
+            </Link>
+            <Link to='/signup'>
             <button>Signu Up</button>
+            </Link>
+            
             </div>
         </nav>
         </Fragment>
