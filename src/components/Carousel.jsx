@@ -9,10 +9,11 @@ const breakPoints = [
     {width:1200, itemsToShow:4},
     {width:1550, itemsToShow:5},
 ]
-function Corousel() {
+function Carousel() {
     return (
         <Fragment>
             <h1 style={{textAlign:'center'}}>KaziPool Carousel</h1>
+            <div className="carousel">
             <Carousel breakPoints={breakPoints}>
             <h1>One</h1>
             <h1>Two</h1>
@@ -21,8 +22,9 @@ function Corousel() {
             <h1>Five</h1>
             <h1>Six</h1>
             </Carousel>
+            </div>
         </Fragment>
     )
 }
 
-export default Corousel
+export default Carousel
