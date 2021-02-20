@@ -217,8 +217,6 @@ li{
 footer{
 font-size: 1.5rem;
 padding: 0.8rem;
-position: sticky;
-bottom: 0;
 text-align: center;
 background-color: rgb(20, 20, 20);
 color:#F7F6FB;
@@ -269,4 +267,28 @@ main{
   width: 20vw;
   background-color:#472347D9;
   color: #F7F6FB;
+}
+
+/**Cards**/
+.card{
+  width: 20rem;
+  box-shadow: 2px 4px 6px 1px;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+  cursor: pointer;
+  transition: linear 0.5s;
+}
+.card-body{
+  padding: 3rem 0 !important;
+}
+
+.card-text{
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+  padding-top: 4rem;
 }

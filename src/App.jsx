@@ -14,6 +14,8 @@ import HomePage from './pages/HomePage';
 import ExpertDashboard from './pages/expert/ExpertDashboard';
 import Footer from './components/Footer';
 import BasicDashboard from './components/BasicDashboard';
+import LandingJobsCard from './components/LandingJobsCard'
+import CardLoops from './components/CardLoops'
 
 function App() {
   return (
@@ -21,17 +23,20 @@ function App() {
       <Router>
         
 
-      {/* <Header/>  */}
+      <Header/> 
 
       <Switch>    
-        <Route exact path='/' component={HomePage}/>
+        {/* <Route exact path='/' component={HomePage}/> */}
         <Route exact path='/dashboard' component={BasicDashboard}/>
         <Route exact path='/signup' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
         <Route exact path='/j' component={Jumbotron}/>
       </Switch>
+      {/* <LandingJobsCard/> */}
+      <CardLoops/>
+      <br/><br/><br/><br/><br/>
 
-      {/* <Footer/> */}
+      <Footer/>
 
       </Router>      
     </Fragment>
