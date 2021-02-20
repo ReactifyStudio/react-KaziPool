@@ -223,3 +223,50 @@ text-align: center;
 background-color: rgb(20, 20, 20);
 color:#F7F6FB;
 }
+
+
+/**Glassmorphism*/
+
+main{
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass{
+  background: white;
+  min-height: 90vh;
+  width: 75vw;
+  background: linear-gradient(to right bottom, 
+  rgba(255,255,255,0.7),
+  rgba(255,255,255,0.3));
+  z-index: 2;
+  backdrop-filter: blur(1.5rem);
+}
+.user{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.glass img{
+  margin: 5px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.glass .links{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+}
+
+.glass .links button{
+  padding: 0.8rem 5rem;
+  width: 20vw;
+  background-color:#472347D9;
+  color: #F7F6FB;
+}

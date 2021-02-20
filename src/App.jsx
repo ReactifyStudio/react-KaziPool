@@ -13,24 +13,25 @@ import HomePage from './pages/HomePage';
 // import ClientDashboardPage from './pages/client-personel/ClientDashboardPage';
 import ExpertDashboard from './pages/expert/ExpertDashboard';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import BasicDashboard from './components/BasicDashboard';
 
 function App() {
   return (
     <Fragment>
       <Router>
+        
 
-      <Header/> 
+      {/* <Header/>  */}
 
       <Switch>    
         <Route exact path='/' component={HomePage}/>
-        <Route exact path='/dashboard' component={Navbar}/>
+        <Route exact path='/dashboard' component={BasicDashboard}/>
         <Route exact path='/signup' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
         <Route exact path='/j' component={Jumbotron}/>
       </Switch>
 
-      <Footer/>
+      {/* <Footer/> */}
 
       </Router>      
     </Fragment>

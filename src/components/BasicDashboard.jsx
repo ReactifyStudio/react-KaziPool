@@ -1,6 +1,6 @@
 import React, {Fragment, useState} from 'react';
 import {Link} from 'react-router-dom';
-
+import profilePic from './avatar.jpg'
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
 
@@ -8,14 +8,6 @@ function Navbar() {
 
     return (
         <Fragment>
-            {/* <header className="header" id="header">
-                <div className="header__toggle">
-                <i class='bx bx-menu' className="header-toggle"></i>
-                </div>
-                <div className="header__img">
-                    <img src="../assets/avatar.jpg" alt=""/>
-                </div>
-            </header> */}
             <div className="l-navbar">
                 <nav className="nav">
                     <div>
@@ -56,7 +48,33 @@ function Navbar() {
                     </a>
                 </nav>
             </div>
-           
+            
+    <main>
+        <section class="glass">
+            <div class="dashboard">
+                <div class="user">
+                    <img src={profilePic} alt=""/>
+
+                    <h3>Winchy Njugia</h3>                    
+                </div>
+                <div class="links">
+                    <div class="link">
+                       <button>Manage Profile</button>
+
+                    </div>
+                    <div class="link">
+                        <button>Post new Job</button>
+                    </div>
+                    <div class="link">
+                        <button>Manage Jobs</button>
+                    </div>
+                    <div class="link">
+                        <button>Track Progress</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>           
         </Fragment>
     )
 }
