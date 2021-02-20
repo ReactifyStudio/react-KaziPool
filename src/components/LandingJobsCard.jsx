@@ -6,7 +6,7 @@ import img3 from './avatar.jpg'
 function LandingJobsCard(props) {
     return (
         <Fragment>
-            <div className="card text-center">
+            <div className="card text-center shadow">
                 <div className="overflow">
                 <img src={img1} alt="" className="card-img-top"/>
                 </div>

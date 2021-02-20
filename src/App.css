@@ -292,3 +292,14 @@ main{
 .container-fluid .row{
   padding-top: 4rem;
 }
+.overflow{
+  overflow: hidden;
+}
+
+.card-img-top{
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+  transform: scale(1.8);
+}
