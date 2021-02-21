@@ -1,7 +1,5 @@
 import React,{Fragment} from 'react'
 import img1 from './avatar.jpg'
-import img2 from './avatar.jpg'
-import img3 from './avatar.jpg'
 
 function LandingJobsCard(props) {
     return (

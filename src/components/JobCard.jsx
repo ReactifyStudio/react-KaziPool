@@ -1,7 +1,7 @@
 import React from 'react'
 import LandingJobsCard from './LandingJobsCard'
 
-function CardLoops() {
+function JobCard() {
     return (
         <div>
             <div className="container-fluid d-flex justify-content-center">
@@ -23,4 +23,4 @@ function CardLoops() {
     )
 }
 
-export default CardLoops
+export default JobCard

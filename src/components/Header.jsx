@@ -37,7 +37,7 @@ function Header(props) {
             <button>Login</button>
             </Link>
             <Link to='/signup'>
-            <button>Signu Up</button>
+            <button>Register</button>
             </Link>
             
             </div>

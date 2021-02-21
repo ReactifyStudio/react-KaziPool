@@ -1,10 +1,16 @@
 import React,{Fragment} from 'react';
+import Header from '../components/Header';
+import JobCard from '../components/JobCard'
+import HowItWorks from '../components/HowItWorks';
+import Footer from '../components/Footer';
 
 function HomePage() {
   return (
     <Fragment>
-      <h1>Home Page</h1>
-        
+      <Header/>
+      <JobCard/>
+      <HowItWorks/>
+      <Footer/>        
     </Fragment>
   );
 }
