@@ -6,14 +6,10 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
-// import ButtonIcon from './components/ButtonIcon';
 import Jumbotron from './components/Jumbotron';
 import HomePage from './pages/HomePage';
-// import ClientDashboardPage from './pages/client-personel/ClientDashboardPage';
-import ExpertDashboard from './pages/expert/ExpertDashboard';
-import Footer from './components/Footer';
-import BasicDashboard from './components/BasicDashboard';
 
+import BasicDashboard from './components/BasicDashboard';
 
 function App() {
   return (
