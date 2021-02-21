@@ -18,6 +18,15 @@ function JobCard() {
                     <div className="col-md-4">
                     <LandingJobsCard/>
                     </div>
+                    <div className="col-md-4">
+                    <LandingJobsCard/>
+                    </div>                    
+                    <div className="col-md-4">
+                    <LandingJobsCard/>
+                    </div>
+                    <div className="col-md-4">
+                    <LandingJobsCard/>
+                    </div>
                 </div>
             </div>
             

@@ -281,6 +281,10 @@ main{
   background-color:#472347D9;
   color: #F7F6FB;
 }
+/*job card margin*/
+.col-md-4{
+  margin-bottom: 20px;
+}
 
 /**Cards**/
 .card{
