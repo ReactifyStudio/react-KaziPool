@@ -9,11 +9,12 @@ function HomePage() {
   return (
     <Fragment>
       <Header/>
-
+    <center>
       <h1>SECTION FOR SHOWCASE IMAGE ETC..</h1>
       <p>dev in progress</p>
+      </center>
       <Jumbotron/>
-
+     
       <JobCard/>
       <HowItWorks/>
       <Footer/>        
