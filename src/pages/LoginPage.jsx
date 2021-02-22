@@ -1,31 +1,48 @@
 import React from 'react';
-import {useForm} from 'react-hook-form';
+import wave from '../assets/wave.png'
+import bg from '../assets/bg.svg'
+import avatar from '../assets/avatar.svg'
 
-function LoginPage(){
-    const { register, errors, handleSubmit } = useForm();
-    function saveData(){
-        console.log(1)
-    }
-    return(
-        <form onSubmit={handleSubmit(data => saveData(data))}>
-
-            <label htmlFor="">Input Your Email</label>
-            <input type="email" name="email" 
-            placeholder="Enter Email"
-            ref={register({ required: true })}
-            />
-            {errors.email && "Required"}
-
-            <label>Input Your Password</label>
-            <input type="password" name="password" id="" 
-            placeholder="Enter Password"
-            ref={register({ required: true })}
-            />
-            {errors.password && "Required"}
-        
-            <input type="submit" /> 
-        </form>
-    );
+function LoginPage() {
+    return (
+        <div>
+            
+	<img class="wave" src={wave}/>
+	<div class="container">
+		<div class="img">
+			<img src={bg}/>
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src={avatar}/>
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input"/>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" />
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login"/>
+            </form>
+        </div>
+    </div>
+            
+        </div>
+    )
 }
 
-export default LoginPage;
+export default LoginPage
+

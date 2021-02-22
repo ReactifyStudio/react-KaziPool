@@ -8,7 +8,7 @@ function Header(props) {
     return (
         <Fragment>
                   <nav class="navbar sticky-top navbar-expand-lg navbar-light main-nav">
-  <a class="navbar-brand  text-white" href="/">KaziPool</a>
+  <a class="navbar-brand  text-white" href="/"><h2>KaziPool</h2></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,19 +37,26 @@ function Header(props) {
     <li>
         Latest Jobs
     </li>
-    </Link>     
-            <li>
-                Help & FAQ
-            </li>
-            <li>
-                Contact Us
-            </li>
-            <Link to='/login'>
-            <button>Login</button>
-            </Link>
-            <Link to='/signup'>
-            <button>Register</button>
-            </Link>
+    </Link> 
+    <Link to='/'> 
+    <li>
+        Help & FAQ
+    </li>
+    </Link> 
+    <Link to='/contact'>       
+    <li>
+        Contact Us
+    </li>
+    </Link>           
+
+    <div className="login-register">
+    <Link to='/login'>
+    <button className="btn btn-login-link">Login</button>
+    </Link>
+    <Link to='/signup'>
+    <button className="btn btn-register-link">Register</button>
+    </Link>
+    </div>
     </ul>
   </div>
 </nav> 

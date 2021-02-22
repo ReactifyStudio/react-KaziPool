@@ -17,7 +17,7 @@ function LandingJobsCard(props) {
                         enim tempora, corrupti magnam aperiam eum libero name <br/>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
-                    <a href="#" className="btn btn-outline-primary">Apply for Job</a>
+                    <a href="#" className="btn btn-outline-primary">Apply Here</a>
                 </div>
             </div>
             

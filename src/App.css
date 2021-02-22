@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap');
 
-body{
-  font-family: Nunito, sans-serif;
-  position: relative;
-  /* margin: var(--header-height) 0 0 0; */
-  margin: 0;
-  padding: 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  transition: .5s;
-}
 :root{
   --header-height: 3rem;
   --nav-width: 68px;
@@ -25,6 +15,18 @@ body{
   /* z-index */
   --z-fixed: 100;
 }
+
+body{
+  font-family: Nunito, sans-serif;
+  position: relative;
+  /* margin: var(--header-height) 0 0 0; */
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: .5s;
+}
+
 *, ::before, ::after{
   box-sizing: border-box;
 }
@@ -40,11 +42,12 @@ body::-webkit-scrollbar-track{
   background-color: rgb(235, 236, 235);
 }
 
-
-
-button{
-  padding: 0.8rem 2.4rem;
-  margin: 5px;
+.login-register{
+  display: flex;
+  justify-content: space-between;
+}
+.login-register a{
+  margin-right: 6px;
 }
 a{
   text-decoration: none;
@@ -146,7 +149,7 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6976d9;
+  background-color: #00BFA6;
   color: #F7F6FB;
 }
 .header-nav div{
@@ -155,7 +158,7 @@ a{
   align-items: center;
 }
 .main-nav{
-  background-color: #6976d9;
+  background-color: #00BFA6;
 }
 nav ul{
   display: flex;
@@ -302,6 +305,7 @@ main{
 .card{
   width: 20rem;
   box-shadow: 2px 4px 6px 1px;
+  padding: 1.5rem;
 }
 
 .card:hover{
@@ -332,27 +336,250 @@ main{
 .card-img-top:hover{
   transform: scale(1.8);
 }
-.carousel{
-  max-width: 100vw;
-  background: #f7f7f7;
-  padding: 1rem 0;
+
+
+/**Login**/
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
 }
 
-.carousel .carousel-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  width: 40vw;
-  padding: 1.5rem;
-  background: #feffff;
-  font-size: 2em;
-  margin: 0 5px;
-  box-shadow: 12px 15px 10px 8p;
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
 }
-.carousel-card:hover{
-  cursor: pointer;
-  transform: scale(0.96);
-  transition: linear 0.6s ease-in;
+
+.img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.login-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.img img{
+	width: 500px;
+}
+
+form{
+	width: 360px;
+}
+
+.login-content img{
+    height: 100px;
+}
+
+.login-content h2{
+	margin: 15px 0;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 2.9rem;
+}
+
+.login-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.login-content .input-div.one{
+	margin-top: 0;
+}
+
+.i{
+	color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.input-div > div{
+    position: relative;
+	height: 45px;
+}
+
+.input-div > div > h5{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	font-size: 18px;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	width: 0%;
+	height: 2px;
+	background-color: #38d39f;
+	transition: .4s;
+}
+
+.input-div:before{
+	right: 50%;
+}
+
+.input-div:after{
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after{
+	width: 50%;
+}
+
+.input-div.focus > div > h5{
+	top: -5px;
+	font-size: 15px;
+}
+
+.input-div.focus > .i > i{
+	color: #38d39f;
+}
+
+.input-div > div > input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	color: #555;
+	font-family: 'poppins', sans-serif;
+}
+
+.input-div.pass{
+	margin-bottom: 4px;
+}
+
+a{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+a:hover{
+	color: #38d39f;
+}
+
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn:hover{
+	background-position: right;
+}
+
+
+@media screen and (max-width: 1050px){
+	.container{
+		grid-gap: 5rem;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	form{
+		width: 290px;
+	}
+
+	.login-content h2{
+        font-size: 2.4rem;
+        margin: 8px 0;
+	}
+
+	.img img{
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.container{
+		grid-template-columns: 1fr;
+	}
+
+	.img{
+		display: none;
+	}
+
+	.wave{
+		display: none;
+	}
+
+	.login-content{
+		justify-content: center;
+	}
+}
+
+/**ContactUs*/
+.field:focus{
+  border: 2px solid rgba(30,85,250,0.47);
+  background-color: #fff;
+}
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact-box{
+  padding: 4rem;
+	width: 85vw;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+.contact-box input{
+  margin: 10px 0;
+}
+.contact-box img{
+  width: 500px;
 }

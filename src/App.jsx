@@ -8,20 +8,26 @@ import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import Jumbotron from './components/Jumbotron';
 import HomePage from './pages/HomePage';
+import ContactUs from './pages/ContactUs';
+import Header from './components/Header';
 
 import BasicDashboard from './components/BasicDashboard';
+
 
 function App() {
   return (
     <Fragment>
       <Router>
-   
+   <Header/>
       <Switch>    
         <Route exact path='/' component={HomePage}/>
+        <Route exact path='/contact' component={ContactUs}/>
+
         <Route exact path='/dashboard' component={BasicDashboard}/>
         <Route exact path='/signup' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
-        <Route exact path='/j' component={Jumbotron}/>
+        {/* <Route exact path='/j' component={Jumbotron}/> */}
+
       </Switch>  
       </Router>       
     </Fragment>
