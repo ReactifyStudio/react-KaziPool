@@ -42,10 +42,11 @@ function Navbar() {
                             </a>
                         </div>
                     </div>
-                    <a href="#" className="nav__link">
+                    <Link to='/' className="nav__link">
                         <i className="bx bx-log-out nav__icon"></i>
                         <span className="nav__name">Logout</span>
-                    </a>
+                    
+                    </Link>
                 </nav>
             </div>
             
