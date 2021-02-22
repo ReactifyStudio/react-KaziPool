@@ -15,6 +15,7 @@ function App() {
   return (
     <Fragment>
       <Router>
+   
       <Switch>    
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/dashboard' component={BasicDashboard}/>
@@ -22,8 +23,7 @@ function App() {
         <Route exact path='/login' component={LoginPage}/>
         <Route exact path='/j' component={Jumbotron}/>
       </Switch>  
-      </Router>      
-      
+      </Router>       
     </Fragment>
 
 

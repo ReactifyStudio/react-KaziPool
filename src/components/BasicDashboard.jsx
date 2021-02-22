@@ -11,10 +11,12 @@ function Navbar() {
             <div className="l-navbar">
                 <nav className="nav">
                     <div>
-                        <a href="#" className="nav__logo">
+                        <Link to='/' className="nav__logo">
+                        
                             <i className="bx bx-layer nav__logo-icon"></i>
                             <span className="nav__logo-name">KaziPool</span>
-                        </a>
+                        
+                        </Link>
                         <div className="nav__list">
                             <a href="#" className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>

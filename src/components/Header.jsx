@@ -7,26 +7,37 @@ function Header(props) {
 
     return (
         <Fragment>
-        <nav className="header-nav">
-            <Link to='/'>
-            <h1>KaziPool</h1>
-            </Link>
-            <div>
-            <li>
-            Hire An Expert
-            </li>
-            <li>
-                Become An Expert
-            </li>
-            <li>
-                How It Works
-            </li>
-            <li>
-                Latest Jobs
-            </li>
-            <li>
-                Blog
-            </li>
+                  <nav class="navbar sticky-top navbar-expand-lg navbar-light main-nav">
+  <a class="navbar-brand  text-white" href="/">KaziPool</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+        <Link to='/'>
+    <li>        
+        Hire An Expert
+    </li>
+    </Link>
+
+    <Link to='/'>
+    <li>
+       Become An Expert
+    </li>
+    </Link>
+
+    <Link to='/'>
+    <li>
+       How It Works
+    </li>
+    </Link>
+
+    <Link to='/'>
+    <li>
+        Latest Jobs
+    </li>
+    </Link>     
             <li>
                 Help & FAQ
             </li>
@@ -39,9 +50,10 @@ function Header(props) {
             <Link to='/signup'>
             <button>Register</button>
             </Link>
-            
-            </div>
-        </nav>
+    </ul>
+  </div>
+</nav> 
+
         </Fragment>
     )
 }

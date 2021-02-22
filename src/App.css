@@ -97,10 +97,12 @@ a{
 .nav{
   height: 100%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
 }
+
 
 .nav__logo, .nav__link{
   display: grid;
@@ -139,7 +141,7 @@ a{
   font-size: 1.25rem;
 }
 
-/**The top nav*/
+
 .header-nav{
   display: flex;
   justify-content: space-between;
@@ -152,8 +154,18 @@ a{
   justify-content: space-between;
   align-items: center;
 }
-
-
+.main-nav{
+  background-color: #6976d9;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  color: #fff;
+  font-size: 1.1rem;
+}
 
 
 
