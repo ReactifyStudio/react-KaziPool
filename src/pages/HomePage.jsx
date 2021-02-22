@@ -10,8 +10,8 @@ function HomePage() {
     <Fragment>
       {/* <Header/> */}
     <center>
-      <h1>SECTION FOR SHOWCASE IMAGE ETC..</h1>
-      <p>dev in progress</p>
+      <h1 style={{fontSize:'3.4rem'}}>IN PROGRESS</h1>
+
       </center>
       {/* <Jumbotron/> */}
      
