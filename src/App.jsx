@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
-import Jumbotron from './components/Jumbotron';
+// import Jumbotron from './components/Jumbotron';
 import HomePage from './pages/HomePage';
 import ContactUs from './pages/ContactUs';
 import Header from './components/Header';
