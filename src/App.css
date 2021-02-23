@@ -178,27 +178,13 @@ label {
   margin-bottom: 5px;
 }
 
-.error {
-  color: red;
-  font-family: sans-serif;
-  font-size: 12px;
-  height: 30px;
-}
-
-.submitButton {
-  background-color: #6976d9;
-  color: white;
-  font-family: sans-serif;
-  font-size: 14px;
-  margin: 20px 0px;
-}
-
-
 li{
   list-style: none;
   margin: 0 10px;
 }
 
+
+/* 
 .side-bar{
   display: flex;
   flex-direction: column;
@@ -211,7 +197,10 @@ li{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
+} */
+
+
+
 /*** DASHBOARD ***/
 .links button{
   margin-top: 5px;
