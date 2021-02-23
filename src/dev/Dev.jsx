@@ -11,8 +11,7 @@ import ViewListings from './ViewListings'
 
 const style={
     display:'grid',
-    gridTemplateColumns:'repeat(2,1fr)',
-    gridGap:'1rem'
+    gridTemplateColumns:'repeat(1,1fr)',
 }
 
 function Dev() {

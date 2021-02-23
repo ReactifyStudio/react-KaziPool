@@ -78,7 +78,7 @@ class NewJob extends Component {
                             
 
                             <div className='form-group'>
-                            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit} />
+                            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit}>ADD <i class="fas fa-plus-square"></i></button>
                             </div>
                         </form>
                     </div>

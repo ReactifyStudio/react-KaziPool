@@ -94,7 +94,7 @@ class NewListing extends Component {
                             />
                             </div>
                             <div className='form-group'>
-                            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit} />
+                            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit}>LIST JOB</button>
                             </div>
                         </form>
                     </div>
