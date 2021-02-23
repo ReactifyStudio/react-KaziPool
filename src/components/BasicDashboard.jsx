@@ -18,13 +18,17 @@ function Navbar() {
                         
                         </Link>
                         <div className="nav__list">
+                        <Link to='/' className="nav__link">
+                                <i className="bx bx-grid-alt nav__icon"></i>
+                                <span className="nav__name">Hidden</span>
+                            </Link>
                             <Link to='/' className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>
                                 <span className="nav__name">Dashboard</span>
                             </Link>
                             <Link to='/' className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>
-                                <span className="nav__name">Users</span>
+                                <span className="nav__name">Applicants</span>
                             </Link>
                             <Link to='/' className="nav__link">
                                 <i className="bx bx-message-square-detail nav__icon"></i>
