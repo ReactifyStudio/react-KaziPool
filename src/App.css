@@ -495,7 +495,8 @@ footer{
 .list-group-flush{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 2rem 4rem;
+  width:100%;
 }
