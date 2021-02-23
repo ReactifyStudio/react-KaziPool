@@ -12,7 +12,7 @@ function RegisterPage(){
 <img class="wave" src={wave}/>
 <div class="container">
     <div class="img">
-        <img src={bg}/>
+        <img src={bg} alt="img"/>
     </div>
     <div class="login-content">
         <form action="index.html">
