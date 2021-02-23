@@ -67,8 +67,8 @@ class NewListing extends Component {
             <div className='container py-4'>
             <div className='row justify-content-center'>
               <div className='col-md-6'>
-                <div className='card'>
-                  <div className='card-header'>Add new job</div>
+                <div className='card dash'>
+                  <div className='card-header'> <h2>Add new job</h2></div>
                   <div className='card-body'>
                         <form>
                             <div className='form-group'>

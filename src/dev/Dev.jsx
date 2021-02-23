@@ -20,10 +20,10 @@ function Dev() {
             
             <ClientValidate/>
             <ListDetails/> */}
-            
+{/*             
             <NewJob/>
             
-            <NewListing/>
+            <NewListing/> */}
             
             {/* <ViewJobs/> */}
             
