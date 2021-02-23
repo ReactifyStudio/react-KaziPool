@@ -4,8 +4,8 @@
   --nav-width: 68px;
 
   /* colors */
-  --first-color: #472347D9;
-  --first-color-light: #AFA5D9;
+  --first-color: #00BFA6/*#472347D9*/;
+  --first-color-light: #fff/*#AFA5D9*/;
   --white-color: #F7F6FB;
 
   /* === Font and Typography */
@@ -103,6 +103,7 @@ a{
   position: relative;
   color: var(--first-color-light);
   margin-bottom: 1.5rem;
+  font-size: 1rem;
   transition: .3s;
 }
 

@@ -20,10 +20,6 @@ function Navbar() {
                         
                         </Link>
                         <div className="nav__list">
-                        <Link to='/' className="nav__link">
-                                <i className="bx bx-grid-alt nav__icon"></i>
-                                <span className="nav__name">Hidden</span>
-                            </Link>
                             <Link to='/' className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>
                                 <span className="nav__name">Dashboard</span>
