@@ -18,30 +18,30 @@ function Navbar() {
                         
                         </Link>
                         <div className="nav__list">
-                            <a href="#" className="nav__link">
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>
                                 <span className="nav__name">Dashboard</span>
-                            </a>
-                            <a href="#" className="nav__link">
+                            </Link>
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-grid-alt nav__icon"></i>
                                 <span className="nav__name">Users</span>
-                            </a>
-                            <a href="#" className="nav__link">
+                            </Link>
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-message-square-detail nav__icon"></i>
                                 <span className="nav__name">Messages</span>
-                            </a>
-                            <a href="#" className="nav__link">
+                            </Link>
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-bookmark nav__icon"></i>
                                 <span className="nav__name">Favorites</span>
-                            </a>
-                            <a href="#" className="nav__link">
+                            </Link>
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-folder nav__icon"></i>
                                 <span className="nav__name">Data</span>
-                            </a>
-                            <a href="#" className="nav__link">
+                            </Link>
+                            <Link to='/' className="nav__link">
                                 <i className="bx bx-bar-chart-alt-2 nav__icon"></i>
                                 <span className="nav__name">Analytics</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <Link to='/' className="nav__link">
