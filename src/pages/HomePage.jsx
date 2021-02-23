@@ -11,7 +11,7 @@ function HomePage() {
       <div>
       <Header/>
       {/* <Jumbotron/> */}
-      <p className="p-fire">Trending Jobs <i class="fas fa-fire"></i> </p>
+      <span className="p-fire">Trending Jobs <i class="fas fa-fire"></i> </span>
       <JobCard/>
 
       <Footer/> 
