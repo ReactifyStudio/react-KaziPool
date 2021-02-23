@@ -184,23 +184,6 @@ li{
 }
 
 
-/* 
-.side-bar{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.side-bar .right-sidebar{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-
-
 /*** DASHBOARD ***/
 .links button{
   margin-top: 5px;
