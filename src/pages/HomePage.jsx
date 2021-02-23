@@ -8,6 +8,7 @@ function HomePage() {
   return (
     <Fragment>
       {/* <Jumbotron/> */}
+      <h1>Trending | <i class="fas fa-fire"></i> | Top Jobs</h1>
      
       <JobCard/>
 
