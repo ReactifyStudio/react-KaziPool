@@ -11,9 +11,7 @@ function HomePage() {
       <div>
       <Header/>
       {/* <Jumbotron/> */}
-      <div>
-      
-      </div>
+      <p>Trending Jobs <i class="fas fa-fire"></i> </p>
       <JobCard/>
 
       <Footer/> 
