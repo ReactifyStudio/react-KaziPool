@@ -243,6 +243,8 @@ li{
 .trend-card{
   width: 400px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .trend-card button{
   width: 16vw;
