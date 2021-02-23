@@ -6,7 +6,7 @@ function LandingJobsCard(props) {
         <Fragment>
             <div className="card text-center shadow ">
                 <div className="overflow">
-                <img src={img1} alt="" className="card-img-top"/>
+                <img src={img1} alt="img" className="card-img-top"/>
                 </div>
                 <div className="card-body text-dark">
                     <h4 className="card-title">
