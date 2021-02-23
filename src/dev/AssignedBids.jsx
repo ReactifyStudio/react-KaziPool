@@ -31,7 +31,7 @@ class AssignedBids extends React.Component {
 <div className='container py-4'>
 <div className='row justify-content-center'>
   <div className='col-md-8'>
-    <div className='card'>
+    <div className='card dash'>
       <div className='card-header'><h2>Assigned Bids</h2></div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
