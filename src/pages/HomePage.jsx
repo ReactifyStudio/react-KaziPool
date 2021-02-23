@@ -4,7 +4,6 @@ import JobCard from '../components/JobCard';
 import Header from '../components/Header'
 
 import Footer from '../components/Footer';
-import './home.css'
 
 function HomePage() {
   return (
