@@ -9,17 +9,10 @@ import NewListing from './NewListing'
 import ViewJobs from './ViewJobs'
 import ViewListings from './ViewListings'
 
-const style={
-    display:'flex',
-    // flexDirection:'column',
-
-    justifyContent:'space-between',
-    // alignItems:'center'
-}
 
 function Dev() {
     return (
-        <div style={style}>
+        <div>
             {/* {/* <AssignBid/> */}
             <AssignedBids/>
             
