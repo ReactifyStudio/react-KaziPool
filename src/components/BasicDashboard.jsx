@@ -14,7 +14,6 @@ function Navbar() {
                 <nav className="nav">
                     <div>
                         <Link to='/' className="nav__logo">
-                        
                             <i className="bx bx-layer nav__logo-icon"></i>
                             <span className="nav__logo-name">KaziPool</span>
                         
