@@ -10,28 +10,34 @@ import ViewJobs from './ViewJobs'
 import ViewListings from './ViewListings'
 
 const style={
-    display:'grid',
-    gridTemplateColumns:'repeat(1,1fr)',
+    display:'flex',
+    // flexDirection:'column',
+
+    justifyContent:'space-between',
+    // alignItems:'center'
 }
 
 function Dev() {
     return (
         <div style={style}>
-            <AssignBid/>
+            {/* <AssignBid/>
             <AssignedBids/>
             
             <BidList/>
             
             <ClientValidate/>
-            <ListDetails/>
+            <ListDetails/> */}
             
             <NewJob/>
+            <br/><br/><br/><br/>
             
-            <NewListing/>
+            {/* <NewListing/> */}
+            <br/><br/><br/><br/>
             
-            <ViewJobs/>
+            {/* <ViewJobs/> */}
+            <br/><br/><br/><br/>
             
-            <ViewListings/>
+            {/* <ViewListings/> */}
             
             
         </div>
