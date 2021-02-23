@@ -28,8 +28,7 @@ function Dev() {
             <ClientValidate/>
             <ListDetails/> */}
             
-            <NewJob/>
-            <br/><br/><br/><br/>
+            {/* <NewJob/> */}
             
             {/* <NewListing/> */}
             <br/><br/><br/><br/>
