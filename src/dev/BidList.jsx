@@ -32,7 +32,7 @@ class BidList extends React.Component {
 <div className='row justify-content-center'>
   <div className='col-md-8'>
     <div className='card'>
-      <div className='card-header'>All tests</div>
+      <div className='card-header'>Bid List</div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
         {listings.map(list => (
