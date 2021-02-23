@@ -25,9 +25,9 @@ function Dev() {
             
             <NewListing/> */}
             
-            {/* <ViewJobs/> */}
+            <ViewJobs/>
             
-            {/* <ViewListings/> */} 
+            <ViewListings/> 
             
             
         </div>
