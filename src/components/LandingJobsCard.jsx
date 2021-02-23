@@ -1,5 +1,6 @@
-import React,{Fragment} from 'react'
-import img1 from './avatar.jpg'
+import React,{Fragment} from 'react';
+import {Link} from 'react-router-dom';
+import img1 from './avatar.jpg';
 
 function LandingJobsCard(props) {
     return (
@@ -17,7 +18,7 @@ function LandingJobsCard(props) {
                         enim tempora, corrupti magnam aperiam eum libero name <br/>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
-                    <a href="#" className="btn btn-outline-primary">Apply Here</a>
+                    <Link to='/' className="btn btn-outline-primary">Apply Here</Link>
                 </div>
             </div>
             
