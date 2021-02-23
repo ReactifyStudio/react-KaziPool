@@ -2,7 +2,7 @@ import React, {Fragment, useState} from 'react';
 import {Link} from 'react-router-dom';
 import profilePic from './avatar.jpg'
 function Navbar() {
-    const [sidebar, setSidebar] = useState(false)
+    // const [sidebar, setSidebar] = useState(false)
 
     const showSidebar = ()=> setSidebar(!sidebar)
 
