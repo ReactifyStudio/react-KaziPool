@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap');
 
 :root{
-  --header-height: 3rem;
   --nav-width: 68px;
 
   /* colors */
@@ -52,7 +51,9 @@ body::-webkit-scrollbar-track{
 a{
   text-decoration: none;
 }
-/*
+
+
+/*Sidebar Dashboard*/
 .header{
   width: 100%;
   height: var(--header-height);
@@ -143,7 +144,7 @@ a{
 .nav__icon{
   font-size: 1.25rem;
 }
-*/
+
 
 .header-nav{
   display: flex;
