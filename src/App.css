@@ -482,9 +482,8 @@ footer{
 }
 
 .list-group-flush li:first-child{
-  font-size: 1.8rem;
-  color: blue;
-  text-decoration: underline;
+  font-size: 1.9rem;
+  color: rgb(28, 28, 255);
 }
 
 .list-group-flush li:nth-child(2){
@@ -498,4 +497,5 @@ footer{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 5rem;
 }
