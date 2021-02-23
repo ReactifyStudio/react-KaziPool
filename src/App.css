@@ -212,14 +212,16 @@ li{
   justify-content: space-between;
   align-items: center;
 }
-
-footer{
-font-size: 1.5rem;
-padding: 0.8rem;
-text-align: center;
-background-color: rgb(20, 20, 20);
-color:#F7F6FB;
+/*** DASHBOARD ***/
+.links button{
+  margin-top: 5px;
+  padding: 0.8rem 4rem;
+  width: 20vw;
+  margin-left: 10px;
+  background-color: #00d8bb;
+  color:#fff;
 }
+
 
 
 /*job card margin*/
@@ -483,3 +485,11 @@ a:hover{
   color: rgb(255,102,102);
   font-size: 3.8rem;
 }
+
+footer{
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  color:#F7F6FB;
+  }

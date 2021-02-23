@@ -63,17 +63,16 @@ function Navbar() {
                 </div>
                 <div class="links">
                     <div class="link">
-                       <button className="btn btn-dboard">Manage Profile</button>
-
+                       <button>Edit Profile</button>
                     </div>
                     <div class="link">
-                        <button className="btn btn-dboard">Post Job</button>
+                        <button>Post Job</button>
                     </div>
                     <div class="link">
-                        <button className="btn btn-dboard">Manage Jobs</button>
+                        <button>Manage Jobs</button>
                     </div>
                     <div class="link">
-                        <button className="btn btn-dboard">Track Progress</button>
+                        <button>Track Progress</button>
                     </div>
                 </div>
             </div>
