@@ -5,9 +5,9 @@ import img1 from '../assets/agric.jpg';
 function LandingJobsCard(props) {
     return (
         <Fragment>
-            <div className="trend-card">
+            <div>
             <h1>Trending Jobs <i class="fas fa-fire"></i> </h1>
-            <div className="card text-center shadow ">
+            <div className="card text-center shadow trend-card">
                 <div className="overflow">
                 <img src={img1} alt="img" className="card-img-top"/>
                 </div>
