@@ -11,7 +11,8 @@ For more information click: Hiring & Paying People With KaziPool
 What does it cost to hire with KaziPool?
 KaziPool is completely free for workers. We only charge clients a small commission to cover running the platform and service, 
 including covering all the transactions costs. 
-This is currently only 10%. There isn’t any VAT on the KaziPool's payment, but we have to add VAT to the platform fee.
+This is currently only 10%. There isn’t any VAT on the KaziPool'
+s payment, but we have to add VAT to the platform fee.
 
 Our fees are completely transparent, unlike agencies who hide their fees in an overall higher day rate, 
 and sometimes get away with as much as double in the hidden mark-up! For more information see: Platform Fees
