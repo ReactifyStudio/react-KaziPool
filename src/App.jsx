@@ -22,7 +22,7 @@ function App() {
     <Fragment>
       <Router>
 
-      <Header/>
+      {/* <Header/> */}
 
       <Switch>    
 

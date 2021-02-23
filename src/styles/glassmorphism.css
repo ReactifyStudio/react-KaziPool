@@ -39,7 +39,12 @@ main{
   }
   
   .glass .links .btn-dboard{
-    padding: 0.8rem 5rem;
+    padding: 1rem 5rem;
     width: 20vw;
     color: #F7F6FB;
+  }
+
+  .try{
+    display: flex;
+    justify-content: space-between;
   }

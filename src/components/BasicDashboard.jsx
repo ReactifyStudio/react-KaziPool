@@ -9,6 +9,7 @@ function Navbar() {
 
     return (
         <Fragment>
+            <div className="try">
             <div className="l-navbar">
                 <nav className="nav">
                     <div>
@@ -82,7 +83,8 @@ function Navbar() {
                 </div>
             </div>
         </section>
-    </main>           
+    </main>   
+    </div>        
         </Fragment>
     )
 }
