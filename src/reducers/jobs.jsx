@@ -7,6 +7,6 @@ const jobsReducer = (state = [], action) => {
       default:
         return state;
     }
-  };
+  }
   
-  export default jobsReducer;
+  export default jobsReducer
