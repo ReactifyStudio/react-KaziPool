@@ -13,17 +13,17 @@ import ViewListings from './ViewListings'
 function Dev() {
     return (
         <div>
-             {/* <AssignBid/>
-            <AssignedBids/> */}
+             <AssignBid/>
+            <AssignedBids/>
             
-            {/* <BidList/>
+            <BidList/>
             
             <ClientValidate/>
-            <ListDetails/> */}
-{/*             
+            <ListDetails/>
+            
             <NewJob/>
             
-            <NewListing/> */}
+            <NewListing/>
             
             <ViewJobs/>
             
