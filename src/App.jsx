@@ -24,7 +24,7 @@ function App() {
         <Route exact path='/contact' component={ContactUs}/>
 
         <Route exact path='/dashboard' component={BasicDashboard}/>
-        <Route exact path='/signup' component={RegisterPage}/>
+        <Route exact path='/register' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
         {/* <Route exact path='/j' component={Jumbotron}/> */}
 

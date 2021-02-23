@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import wave from '../assets/wave.png'
 import bg from '../assets/bg.svg'
 import avatar from '../assets/avatar.svg'
@@ -34,8 +35,10 @@ function LoginPage() {
            		    	<input type="password" class="input" />
             	   </div>
             	</div>
-            	<a href="#">Forgot Password?</a>
+            	<Link to="/">Forgot Password?</Link>
+				
             	<input type="submit" class="btn" value="Login"/>
+				<h5><Link to='/register'>Register here</Link></h5>
             </form>
         </div>
     </div>
