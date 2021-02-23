@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from '../assets/ContactUs.svg'
+import '../styles/contact.css'
 
 function ContactUs() {
     return (
