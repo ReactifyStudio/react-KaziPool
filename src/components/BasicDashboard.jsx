@@ -1,6 +1,7 @@
 import React, {Fragment/*, useState*/} from 'react';
 import {Link} from 'react-router-dom';
-import profilePic from './avatar.jpg'
+import profilePic from './avatar.jpg';
+import '../styles/glassmorphism.css'
 function Navbar() {
     // const [sidebar, setSidebar] = useState(false)
 
@@ -66,17 +67,17 @@ function Navbar() {
                 </div>
                 <div class="links">
                     <div class="link">
-                       <button>Manage Profile</button>
+                       <button className="btn btn-dboard">Manage Profile</button>
 
                     </div>
                     <div class="link">
-                        <button>Post new Job</button>
+                        <button className="btn btn-dboard">Post Job</button>
                     </div>
                     <div class="link">
-                        <button>Manage Jobs</button>
+                        <button className="btn btn-dboard">Manage Jobs</button>
                     </div>
                     <div class="link">
-                        <button>Track Progress</button>
+                        <button className="btn btn-dboard">Track Progress</button>
                     </div>
                 </div>
             </div>
