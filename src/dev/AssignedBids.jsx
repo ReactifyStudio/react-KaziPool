@@ -47,9 +47,7 @@ class AssignedBids extends React.Component {
           <li>Job Title</li>
           <li>Bidded By Terrence</li>
           <li>Created at 6</li>
-
         </ul>
-        lorem4
       </div>
     </div>
   </div>
