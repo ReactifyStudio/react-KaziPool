@@ -33,7 +33,7 @@ class AssignBid extends React.Component {
 <div className='container py-4 assign-bid'>
 <div className='row justify-content-center'>
   <div className='col-md-8'>
-    <div className='card '>
+    <div className='card dash'>
       <div className='card-header'><h2>Assign Your Bid</h2></div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
