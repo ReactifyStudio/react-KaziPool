@@ -16,10 +16,10 @@ function Dev() {
             {/* {/* <AssignBid/> */}
             <AssignedBids/>
             
-            <BidList/>
+            {/* <BidList/>
             
             <ClientValidate/>
-            <ListDetails/>
+            <ListDetails/> */}
             
             <NewJob/>
             
