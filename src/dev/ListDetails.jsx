@@ -42,7 +42,7 @@ class ListDetails extends React.Component {
 <div className='row justify-content-center'>
   <div className='col-md-8'>
     <div className='card'>
-      <div className='card-header'>Job Details | List</div>
+      <div className='card-header'><h2>Job Details | List </h2></div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
                   <li>Job name: {jobname}</li>
