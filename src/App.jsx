@@ -14,6 +14,9 @@ import F04 from './components/F04'
 import BasicDashboard from './components/BasicDashboard';
 
 
+import Dev from './dev/Dev'
+
+
 function App() {
   return (
     <Fragment>
@@ -29,6 +32,7 @@ function App() {
         <Route exact path='/register' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
         <Route exact path='*' component={F04}/>
+        <Route exact path='/dev' component={Dev}/>
 
       </Switch>  
       </Router>       
