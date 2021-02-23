@@ -11,7 +11,7 @@ function HomePage() {
       <div>
       <Header/>
       {/* <Jumbotron/> */}
-      <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <div>
       <h1>Trending Jobs <i class="fas fa-fire"></i> </h1>
       </div>
       <JobCard/>
