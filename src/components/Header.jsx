@@ -27,11 +27,6 @@ function Header(props) {
     </li>
     </Link>
 
-    <Link to='/'>
-    <li>
-       How It Works
-    </li>
-    </Link>
 
     <Link to='/'>
     <li>
