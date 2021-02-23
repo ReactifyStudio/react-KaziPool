@@ -20,13 +20,13 @@ const style={
 function Dev() {
     return (
         <div style={style}>
-            {/* <AssignBid/>
+            {/* {/* <AssignBid/> */}
             <AssignedBids/>
             
             <BidList/>
             
             <ClientValidate/>
-            <ListDetails/> */}
+            <ListDetails/>
             
             {/* <NewJob/> */}
             
