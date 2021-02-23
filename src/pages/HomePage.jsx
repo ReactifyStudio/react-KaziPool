@@ -9,7 +9,7 @@ import './home.css'
 function HomePage() {
   return (
     <Fragment>
-      <div className="full">
+      <div>
       <Header/>
       {/* <Jumbotron/> */}
       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
