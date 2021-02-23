@@ -594,7 +594,10 @@ textarea{
   justify-content: center;
   align-items: center;
 }
-.code{
+.fa-telescope{
+  color: #fff;
+}
+.code, .fa-telescope{
   font-size: 20em;
   font-weight: bold;
   text-transform: uppercase;

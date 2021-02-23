@@ -50,7 +50,7 @@ class ListDetails extends React.Component {
                   <li>Amount: {bidamount}</li>
         </ul>
         <div className='form-group'>
-            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit}>BID</button>
+            <button type="submit" className='btn btn-primary' onClick={this.handleSubmit}>BID JOB</button>
         </div>
       </div>
     </div>
