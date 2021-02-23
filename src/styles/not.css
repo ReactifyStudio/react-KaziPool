@@ -30,3 +30,19 @@
 .header__img img{
   width: 40px;
 } */
+
+
+/* 
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar .right-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} */
