@@ -480,3 +480,22 @@ footer{
   background-color: #32be8f;
   color: #fff;
 }
+
+.list-group-flush li:first-child{
+  font-size: 1.8rem;
+  color: blue;
+  text-decoration: underline;
+}
+
+.list-group-flush li:nth-child(2){
+  color: #6026ff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.list-group-flush{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
