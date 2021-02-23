@@ -14,7 +14,7 @@ function Dev() {
     return (
         <div>
              <AssignBid/>
-            {/* <AssignedBids/> */}__
+            <AssignedBids/>
             
             {/* <BidList/>
             
