@@ -6,7 +6,7 @@ function ContactUs() {
         <div class="container">
 		<div class="contact-box">
 			<div class="left">
-                <img src={Contact} alt=""/>
+                <img src={Contact} alt="contact img"/>
             </div>
 			<div class="right">
 				<h2>Contact Us</h2>
