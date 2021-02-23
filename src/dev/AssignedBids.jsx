@@ -35,7 +35,7 @@ class AssignedBids extends React.Component {
       <div className='card-header'>All tests</div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
-        {listings.map(list => (
+        {/* {listings.map(list => (
         <Link className='list-group-item list-group-item-action d-flex justify-content-between align-items-center'
               to={`/validate?bidID=${list.bidID}&bidName=${list.jobTitle}&bidTime=${list.created_at}&biddername=${list.expertName}`}
               key={list.id}>
@@ -43,8 +43,13 @@ class AssignedBids extends React.Component {
                   <li>Bidded by: {list.expertName}</li>
                   <li>Time: {list.created_at}</li>
                         </Link>
-          )) }
+          )) } */}
+          <li>Job Title</li>
+          <li>Bidded By Terrence</li>
+          <li>Created at 6</li>
+
         </ul>
+        lorem4
       </div>
     </div>
   </div>
