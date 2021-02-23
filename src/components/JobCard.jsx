@@ -5,7 +5,6 @@ function JobCard() {
     return (
         <div>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-            <h1>Trending | | Popular Jobs</h1>
             </div>
             <div className="container-fluid d-flex justify-content-center">
                 <div className="row">

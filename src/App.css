@@ -636,3 +636,9 @@ textarea{
     font-size: 16em;
   }
 }
+
+/**fire**/
+.fa-fire{
+  color: rgb(255,102,102);
+  font-size: 3.8rem;
+}
