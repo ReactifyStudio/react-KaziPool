@@ -43,8 +43,3 @@ main{
     width: 20vw;
     color: #F7F6FB;
   }
-
-  .try{
-    display: flex;
-    justify-content: space-between;
-  }
