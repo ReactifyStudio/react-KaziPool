@@ -1,0 +1,32 @@
+
+/**ContactUs*/
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+  }
+  .field:hover{
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea{
+      min-height: 150px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contact-box{
+    padding: 4rem;
+      width: 85vw;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  }
+  .contact-box input{
+    margin: 10px 0;
+  }
+  .contact-box img{
+    width: 500px;
+  }

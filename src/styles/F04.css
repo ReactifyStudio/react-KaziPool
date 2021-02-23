@@ -1,0 +1,57 @@
+/***404**/
+
+.f04{
+    background:#040007;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-telescope{
+    color: #fff;
+  }
+  .code, .fa-telescope{
+    font-size: 20em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #050108;
+    text-shadow: -1px -1px 0px #6052db, 1px 1px 0px #ff5d5d;
+  }
+  
+  .call-to-action{
+    border: 2px solid #ff5d5d;
+    outline: none;
+    background-color: transparent;
+    color: #ff5d5d;
+    padding: 12px 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .call-to-action:hover{
+    background-color: rgba(255,255,255,0.5);
+  }
+  
+  .info{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #6052db;
+    letter-spacing: 8px;
+    transform: translateY(-300px);
+  }
+  @media screen and (max-width: 900px){
+      .f04{
+      width: 100vw;
+    }
+    .info{
+      font-size: 2.2em;
+    }
+    .code{
+      font-size: 16em;
+    }
+  }
+  
+  

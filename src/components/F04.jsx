@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import "../styles/F04.css";
 function F04() {
     return (
         <div>

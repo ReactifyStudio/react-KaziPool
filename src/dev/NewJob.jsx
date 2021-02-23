@@ -47,9 +47,9 @@ class NewJob extends Component {
     render(){
         return (
             <div className='container py-4'>
-            <div className='row justify-content-center'>
-              <div className='col-md-6'>
-                <div className='card'>
+            <div className='row justify-content-center' >
+              <div className='col-md-6' >
+                <div className='card dash'>
                   <div className='card-header'>Add new job</div>
                   <div className='card-body'>
                         <form>
