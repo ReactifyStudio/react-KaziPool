@@ -8,8 +8,9 @@ function HomePage() {
   return (
     <Fragment>
       {/* <Jumbotron/> */}
-      <h1>Trending | <i class="fas fa-fire"></i> | Top Jobs</h1>
-     
+      <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <h1>Trending Jobs <i class="fas fa-fire"></i> </h1>
+      </div>
       <JobCard/>
 
       <Footer/>        
