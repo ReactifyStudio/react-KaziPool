@@ -15,7 +15,7 @@ function LoginPage() {
 		</div>
 		<div class="login-content">
 			<form action="index.html">
-				<img src={avatar} alt="img"/>
+			 	<img src={avatar} alt="img"/>
 				<h2 class="title">Welcome</h2>
            		<div class="input-div one">
            		   <div class="i">
