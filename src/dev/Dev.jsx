@@ -9,19 +9,31 @@ import NewListing from './NewListing'
 import ViewJobs from './ViewJobs'
 import ViewListings from './ViewListings'
 
+const style={
+    display:'grid',
+    gridTemplateColumns:'repeat(2,1fr)',
+    gridGap:'1rem'
+}
 
 function Dev() {
     return (
-        <div>
+        <div style={style}>
             <AssignBid/>
             <AssignedBids/>
+            
             <BidList/>
+            
             <ClientValidate/>
             <ListDetails/>
+            
             <NewJob/>
+            
             <NewListing/>
+            
             <ViewJobs/>
+            
             <ViewListings/>
+            
             
         </div>
     )

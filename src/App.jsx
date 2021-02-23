@@ -31,8 +31,9 @@ function App() {
         <Route exact path='/dashboard' component={BasicDashboard}/>
         <Route exact path='/register' component={RegisterPage}/>
         <Route exact path='/login' component={LoginPage}/>
-        <Route exact path='*' component={F04}/>
         <Route exact path='/dev' component={Dev}/>
+        <Route exact path='*' component={F04}/>
+        
 
       </Switch>  
       </Router>       
