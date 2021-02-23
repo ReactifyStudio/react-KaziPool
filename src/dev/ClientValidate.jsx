@@ -34,7 +34,7 @@ class ClientValidate extends React.Component {
 <div className='row justify-content-center'>
   <div className='col-md-8'>
     <div className='card dash'>
-      <div className='card-header'>Confirm Client | Validate</div>
+      <div className='card-header'><h2>Confirm Client | Validate</h2></div>
       <div className='card-body'>
         <ul className='list-group list-group-flush'>
                   <li>Job name: {jobname}</li>
