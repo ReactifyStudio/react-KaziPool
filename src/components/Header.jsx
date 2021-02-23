@@ -33,11 +33,7 @@ function Header(props) {
         Latest Jobs
     </li>
     </Link> 
-    <Link to='/'> 
-    <li>
-        Help & FAQ
-    </li>
-    </Link> 
+
     <Link to='/contact'>       
     <li>
         Contact Us
