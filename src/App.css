@@ -468,4 +468,16 @@ footer{
 
 
 
-  
+.dash{
+  background-color:#f2f4f6;
+  min-width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header{
+  font-size: 1rem;
+  background-color: #32be8f;
+  color: #fff;
+}
