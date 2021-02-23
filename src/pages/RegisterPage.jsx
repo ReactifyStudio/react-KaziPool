@@ -9,14 +9,14 @@ function RegisterPage(){
     return(
 <div>
             
-<img class="wave" src={wave}/>
+<img class="wave" src={wave} alt="img"/>
 <div class="container">
     <div class="img">
         <img src={bg} alt="img"/>
     </div>
     <div class="login-content">
         <form action="index.html">
-            <img src={avatar}/>
+            <img src={avatar} alt="img"/>
             <h2 class="title">Register</h2>
                <div class="input-div one">
                   <div class="i">
