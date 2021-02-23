@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 function HomePage() {
   return (
     <Fragment>
+      <div className="full">
       <Header/>
       {/* <Jumbotron/> */}
       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -15,7 +16,8 @@ function HomePage() {
       </div>
       <JobCard/>
 
-      <Footer/>        
+      <Footer/> 
+      </div>       
     </Fragment>
   );
 }
