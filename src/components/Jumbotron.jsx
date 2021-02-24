@@ -12,8 +12,6 @@ function Jumbotron(props) {
                         
                             <form>
                                 <div className="row">
-                                    <div className="col-lg-5 col-md-5 col-xs-12">
-                                    </div>
                                 </div>
                             </form>
                         </div>
