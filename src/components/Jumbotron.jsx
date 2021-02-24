@@ -7,8 +7,6 @@ function Jumbotron(props) {
             <div className="row space-100">
                 <div className="col-lg-7 col-md-12 col-xs-12">
                     <div className="contents">
-                        <div className="job-search-form">
-                        </div>
                     </div>
                 </div>
             </div>
