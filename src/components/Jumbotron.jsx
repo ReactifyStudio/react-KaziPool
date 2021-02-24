@@ -36,7 +36,7 @@ function Jumbotron(props) {
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-2 col-xs-12">
-                                        {/* <button type="submit" className="button btn-primary">Search</button> */}
+
                                     </div>
                                 </div>
                             </form>
