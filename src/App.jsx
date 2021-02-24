@@ -1,6 +1,6 @@
-import React,{Fragment} from 'react'
-import './App.css'
-import 'boxicons'
+import React,{Fragment} from 'react';
+import './App.css';
+import 'boxicons';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
