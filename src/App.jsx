@@ -15,7 +15,7 @@ import BasicDashboard from './components/BasicDashboard';
 import Footer from './components/Footer';
 
 
-import Dev from './dev/Dev'
+import Dev from './dev/Dev';
 
 
 function App() {
