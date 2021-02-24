@@ -9,10 +9,7 @@ function Jumbotron(props) {
                     <div className="contents">
                         
                         <div className="job-search-form">
-                        
                             <form>
-                                <div className="row">
-                                </div>
                             </form>
                         </div>
                     </div>
