@@ -14,18 +14,6 @@ function Jumbotron(props) {
                                 <div className="row">
                                     <div className="col-lg-5 col-md-5 col-xs-12">
                                         <div className="form-group">
-                                            <div className="search-category-container">
-                                                <label className="styled-select">
-                                                    <select>  
-                                                        <option value="none">Kiambu</option>                                          
-                                                        <option value="none">Mombasa</option>
-                                                        <option value="none">Murang'a</option>
-                                                        <option value="none">Nakuru</option>                                                        
-                                                        <option value="none">Nairobi</option>
-                                                        <option value="none">Machakos</option>
-                                                    </select>
-                                                </label>
-                                            </div>
                                             <i className="lni-map-marker"></i>
                                         </div>
                                     </div>
