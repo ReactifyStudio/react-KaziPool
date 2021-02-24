@@ -35,9 +35,6 @@ function Jumbotron(props) {
                                             <i className="lni-map-marker"></i>
                                         </div>
                                     </div>
-                                    <div className="col-lg-2 col-md-2 col-xs-12">
-
-                                    </div>
                                 </div>
                             </form>
                         </div>
