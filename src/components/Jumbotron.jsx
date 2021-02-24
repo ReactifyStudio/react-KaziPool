@@ -11,7 +11,6 @@ function Jumbotron(props) {
                         <div className="job-search-form">
                         
                             <form>
-                            <h3>SEARCH BY LOCATION</h3>
                                 <div className="row">
                                     <div className="col-lg-5 col-md-5 col-xs-12">
                                         <div className="form-group">
