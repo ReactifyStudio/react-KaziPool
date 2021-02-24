@@ -10,7 +10,7 @@ import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';
 import ContactUs from './pages/ContactUs';
 import Header from './components/Header';
-import F04 from './components/F04'
+import F04 from './components/F04';
 import BasicDashboard from './components/BasicDashboard';
 import Footer from './components/Footer';
 
