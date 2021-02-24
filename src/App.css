@@ -552,3 +552,8 @@ footer{
   line-height: .5;
   border-radius: .2rem;
 }
+
+.section-header{
+  display: flex;
+  flex-direction: column;
+}
