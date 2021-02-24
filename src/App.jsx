@@ -22,7 +22,7 @@ function App() {
   return (
     <Fragment>
       <Router>
-        
+        <Header/>
       <Switch>    
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/contact' component={ContactUs}/>
