@@ -1,5 +1,4 @@
 import React,{Fragment} from 'react';
-// import Jumbotron from '../components/Jumbotron';
 import JobCard from '../components/JobCard';
 
 function HomePage() {
