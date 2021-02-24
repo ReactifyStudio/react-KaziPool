@@ -22,8 +22,8 @@ function App() {
   return (
     <Fragment>
       <Router>
+        
       <Switch>    
-
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/contact' component={ContactUs}/>
         <Route exact path='/dashboard' component={BasicDashboard}/>
@@ -31,8 +31,8 @@ function App() {
         <Route exact path='/login' component={LoginPage}/>
         <Route exact path='/dev' component={Dev}/>
         <Route exact path='*' component={F04}/>
-        
       </Switch>  
+
       <Footer/> 
       </Router>       
     </Fragment>
