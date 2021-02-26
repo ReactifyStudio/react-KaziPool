@@ -8,10 +8,9 @@
   --first-color-light: #fff;
   --white-color: #F7F6FB;
 
-  /* === Font and Typography */
+  /*Font and Typography */
   --body-font: 'Nunito', sans-serif;
   --normal-font-size: 1rem;
-  /* z-index */
   --z-fixed: 100;
 }
 
