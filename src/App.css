@@ -200,11 +200,7 @@ li{
 .col-md-4{
   margin-bottom: 10px;
 }
-/* 
-.card-home{
-  width: 20rem;
 
-} */
 
 .card-home:hover{
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
