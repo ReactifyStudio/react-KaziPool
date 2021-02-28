@@ -11,4 +11,4 @@ Google Maps, SMS Intergrations
 Fully PWA, Modern FEATURES and TWA installations
 More APIs
 
-JAVASCRIPT 
+JAVASCRIPT TYPESCRIPT
